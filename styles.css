@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(164, 56, 74);
+   color: white;
+    
+   
+}
+
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+#header {
+    background: url('background.jpg')  center/cover no-repeat; /* Set your background image */
+    color: white; /* Text color for the header */
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    height: fit-content;
+}
+
+
+nav{
+    display: flex;
+    
+    
+
+}
+nav h1{
+    padding: 7px;
+    margin-left: 9px;
+    margin-right: 380px;
+    margin-top: 10px ;
+font-family:'Courier New', Courier, monospace;
+}
+nav h1:hover{
+    cursor: pointer;
+    font-weight: bold;
+    
+    text-shadow: 0 0 5px #c78989,
+    0 0 25px #c78989, 0 0 50px #c78989, 
+    0 0 100px #c78989, 0 0 200px #c78989;
+}
+nav ul {
+  
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+   
+}
+
+nav li {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+    color: rgb(164, 56, 74);
+    color: #c78989;
+}
+nav .dropdown {
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(164, 56, 74);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+nav .dropdown-content a:hover {
+    background-color: #c78989;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    max-width: 1200px;
+    margin: 220px auto;
+}
+.cart{
+    margin-top: -10px;
+ 
+}
+.cart img{
+    transition: transform 0.3s ease-in-out;
+}
+.cart-text {
+    position: absolute;
+    background-color: rgb(164, 56, 74, 0.6) ;
+    top: 62px;
+    float: left;
+    right: 50px;
+  
+    color:  white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    font-size: 12px;
+    transition: opacity 0.6s ease-in-out;
+  }
+.cart img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.cart:hover .cart-text{
+     opacity: 1;
+   
+}
+
+.sectioo {
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none; 
+}
+#Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.sectioo h1{
+    font-size: 50px;
+    margin-top: -60px;
+    color: rgb(183, 87, 103);
+    margin-bottom: 0.4px;
+
+}
+.sectioo p{
+    width: 80%;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(183, 87, 103);
+}
+
+#about-section {
+    display: none; 
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+.about-para{
+    color: white;
+    padding-top: 10px;
+    padding-left: 80px;
+    width: 50%;
+    text-align:left;
+}
+.about-data{
+    display: flex;
+   
+}
+.about-data .best{
+ 
+  
+   margin-left: 100px;
+  
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#ab{
+    font-size: 55px;
+}
+.sub{
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cake-category {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cake {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.cake img{
+    transition: transform 0.3s ease-in-out;
+}
+.cake img:hover{
+    transform: scale(0.9);
+}
+.cake h2{
+    color: white;
+}
+.cake p{
+    color: aqua;
+}
+.cake .add-to-cart-btn{
+    background-color: #c78989;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    border: solid #c78989;
+    transition: transform 0.3s ease-in-out;
+}
+.cake .add-to-cart-btn:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+    border: solid white;
+    background-color: #ba7575;
+}
+#myForm{
+padding:  0px 80px ;
+}
+
+
+form{
+    max-width: 100%;
+}
+.hidden p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  margin-left: 77px;
+    
+}
+
+ form input{
+    height:50px;
+    background-color: transparent;
+    border: 3px solid #c78989; 
+    border-radius: 3px;
+    color: rgb(255, 252, 252);
+    transition: border-color 0.3s ease;
+}
+input:focus{
+    outline: none; 
+    border-color: #f78e8e; 
+    box-shadow: 0 0 5px rgba(34, 32, 32, 0.8);
+}
+label {
+    display: flex;
+    margin-bottom: 5px;
+    color: rgba(233, 217, 217, 0.9);
+    padding: 15px 0px;
+  }
+.form-row label{
+   display: inline-flex;
+   width: 49.79%;
+}
+.form-row input{
+
+    width: 45%;
+}
+
+.form-col input{
+  
+    width: 96%; /* Set the width to 100% to make it full */
+   
+}
+
+#em{
+    margin-left: 51px;
+}
+textarea{
+    width: 96%;
+    height: 110px;
+    border:  3px solid #c78989; 
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+textarea:focus{
+    outline: none; /* Remove the default outline */
+    border-color: #f78e8e; /* Set the desired border color when the input is focused */
+    box-shadow: 0 0 5px rgba(34, 32, 32, 0.8);
+}
+form button{
+  background-color: #c78989;
+  color: white;
+  padding: 20px 15px;
+  width: 97%;
+  border-radius: 3px;
+  font-size: 18px;
+  
+  border: none;
+}
+
+form button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(255, 128, 149),
+    0 0 25px rgb(255, 128, 149), 0 0 50px rgb(255, 128, 149), 
+    0 0 100px rgb(255, 128, 149), 0 0 200px rgb(255, 128, 149);
+    background-color:rgb(164, 56, 74) ;
+    font-weight: bold;
+    border: 3px solid rgb(183, 87, 103);
+}
+.submit{
+    padding: 40px 0;
+    padding-bottom: 70px;
+}
+
+
+
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

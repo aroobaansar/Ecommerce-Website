@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(164, 56, 74);
+   color: c78989;
+    
+   
+}
+header {
+    background-color: #c78989; 
+    color: #fff; 
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0; 
+    height: 50px;
+    width: 100%; 
+    z-index: 1000; 
+}
+nav{
+    display: flex;
+    
+    
+
+}
+nav h1{
+    padding: 7px;
+    margin-left: 9px;
+    margin-right: 380px;
+    margin-top: 10px ;
+font-family:'Courier New', Courier, monospace;
+}
+nav h1:hover{
+    cursor: pointer;
+    font-weight: bold;
+    
+    text-shadow: 0 0 5px rgb(164, 56, 74),
+    0 0 25px rgb(164, 56, 74), 0 0 50px rgb(164, 56, 74), 
+    0 0 100px rgb(164, 56, 74), 0 0 200px rgb(164, 56, 74);
+}
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+    
+    color: rgb(164, 56, 74);
+}
+.container {
+    background-color: rgba(199, 137, 137, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-top: 200px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+@keyframes animatetab {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.input-form {
+   
+    padding: 20px;
+    animation: animatetab 1s ease-out 0.3s forwards;
+}
+label{
+    font-weight: bolder;
+    color: rgb(57, 17, 23);
+}
+ button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 8px;
+    width: 100%;
+    background-color: #c78989;
+    color: #fff;
+    font-size: large;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold
+}
+button:hover{
+    color: rgb(57, 17, 23);
+    box-shadow: 0 0 5px rgb(164, 56, 74),
+    0 0 25px rgb(164, 56, 74), 0 0 50px rgb(164, 56, 74), 
+    0 0 100px rgb(164, 56, 74), 0 0 200px rgb(164, 56, 74);
+}
+a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

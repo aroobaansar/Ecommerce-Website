@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(164, 56, 74);
+   color: white;
+    
+   
+}
+
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    
+    
+
+}
+nav h1{
+    padding: 7px;
+    margin-left: 9px;
+    margin-right: 380px;
+    margin-top: 10px ;
+font-family:'Courier New', Courier, monospace;
+}
+nav h1:hover{
+    cursor: pointer;
+    font-weight: bold;
+    
+    text-shadow: 0 0 5px #c78989,
+    0 0 25px #c78989, 0 0 50px #c78989, 
+    0 0 100px #c78989, 0 0 200px #c78989;
+}
+.search-section {
+    text-align: center;
+}
+.search{
+    background-color: #db9a9a;
+    padding: 12px 16px;
+    border-radius: 2px;
+    color: white;
+    border: solid   #c78989;
+    width: 100px;
+    text-underline-offset: none;
+    
+  
+}
+.search:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #db9a9a,
+    0 0 25px #db9a9a, 0 0 50px #db9a9a, 
+    0 0 100px #db9a9a, 0 0 200px #db9a9a;
+    font-weight: bold;
+    
+
+
+}
+#home-h1 {
+    margin-top: 150px; 
+    text-align: center; 
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+#home-h2{
+    padding: 0px 5px;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    margin-left: 180px;
+}
+
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}

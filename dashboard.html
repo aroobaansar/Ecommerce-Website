@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Creative Cake Shop</title>
+</head>
+<body>
+    <div id="header">
+    <header>
+      
+        <nav>
+          
+            <h1 class="logo">Creative Cakes</h1>
+       
+            <ul>
+                <li ><a href="#home">Home</a></li>
+              
+                <li class="dropdown">
+                    <a href="#categories" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="#wedding-cakes" onclick="showSection('wedding-cakes')">Wedding Cakes</a>
+                        <a href="#birthday-cakes">Birthday Cakes</a>
+            
+                    </div>
+                </li>
+                <li><a href="#contact"  onclick="showSection('contact')">Contact Us</a></li>
+                <li><a href="#about"  onclick="showSection('about')">About Us</a></li>
+                    </ul>
+                    <div class="cart"><img src="cart_icon.png" alt="Checkout" onclick="viewCart()" height="80" width="100">
+                        <span class="cart-text">Add to Cart</span>
+                    </div> 
+ 
+        </nav>
+       
+    </header>
+  
+    <main>
+      
+        <section id="Home" class="sectioo">
+            <h1>Your sweet sanctuary awaits!</h1>
+            <p> Dive into our dashboard for a taste of indulgence. Welcome to a world of flavor and delight!</p>
+        </section>
+    </div>
+    <section id="about" class="page">
+        <h1 class="heading" id="ab">About Us</h1>
+        <div class="about-data">
+        <p class="about-para">
+            Life is full of events; everyone wants to celebrate these moments in a perfect and stylish way. These moments might be religious festivals like Eid, engagement, birthday, wedding ceremony, college result, office party, etc. Without having a delicious taste of cake celebration is incomplete.
+            <br> <br>
+            Let get your cake online in Pakistan & Get you cakes at your door steps.
+            <br><br>
+            From fruit cakes to chocolate cakes, our cakes entice you back for one more slice. We offer a wide range of fresh and tempting cakes online at the economical price. We have been making cakes for many years and pride ourselves on a strong sense of tradition.
+            <br><br>
+            At cake.com.pk you will find an outstanding quality of ingredients and carefully prepared by the professional chefs.
+            We believe in customer satisfaction and offer the best online cake purchasing experience for ever. From booking to deliver we make sure that you will really appreciate our effort. We always strive hard to bring a uniqueness and innovation in our product and services.
+            <br>
+            <br>
+            Black Forest Cake Online in Pakistan <br><br>
+            All our cakes are prepared according to the desire and the expectation of customers. We provide the custom cake solution.
+            Price is the major concern for everyone. But at cake.com.pk, no one can compete us in prices.
+            cake.com.pk is the best cake provider.</p> 
+        <div class="best"></a><img src="about.png" alt="" height="470" width="400"></div> </div> </section>
+    <div class="heading">
+        <h1>The Sweetest choice
+        </h1>
+        <h1 class="sub">Wedding Cakes</h1>
+        </div>
+       
+         <div></div>
+     <section id="wedding-cakes" class="cake-category">
+        
+            <div class="cake">
+                <img src="images/wed1.jpg" alt="Cake 1" height="250" width="200">
+                <h2>Wedding Cake</h2>
+                <p>Rs.2000</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 2000)">Add to Cart</button>
+            </div>
+            <div class="cake">
+                <img src="images/wed2.jpg" alt="Cake 1" height="250" width="200">
+                <h2>Wedding Cake</h2>
+                <p>Rs.3499</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+            </div>
+            <div class="cake">
+                <img src="images/wed3.jpg" alt="Cake 1" height="250" width="200">
+                <h2>Wedding Cake</h2>
+                <p>Rs.3999</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+            </div>
+            <div class="cake">
+                <img src="images/wed4.jpg" alt="Cake 1" height="250" width="200">
+                <h2>Wedding Cake</h2>
+                <p>Rs.1599</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+            </div>
+            <div class="cake">
+                <img src="images/wed5.jpg" alt="Cake 1" height="250" width="200">
+                <h2>Wedding Cake</h2>
+                <p>Rs.2999</p>
+                <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+            </div>
+     </section>
+
+<div class="heading">
+ 
+    <h1 class="sub">Birthday Cakes</h1>
+    </div>
+            <section id="birthday-cakes" class="cake-category">
+              
+                <div class="cake">
+                    <img src="images/cake1.jpeg" alt="Cake 1" height="200" width="200">
+                    <h2>Birthday Cake</h2>
+                    <p>Rs.2000</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+                </div>
+                <div class="cake">
+                    <img src="images/cake2.jpeg" alt="Cake 1" height="200" width="200">
+                    <h2>Birthday Cake</h2>
+                    <p>Rs.3499</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+                </div>
+                <div class="cake">
+                    <img src="images/cake3.jpeg" alt="Cake 1" height="200" width="200">
+                    <h2>Birthday Cake</h2>
+                    <p>Rs.3999</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+                </div>
+                <div class="cake">
+                    <img src="images/cake4.jpeg" alt="Cake 1" height="200" width="200">
+                    <h2>Birthday Cake</h2>
+                    <p>Rs.1599</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+                </div>
+                <div class="cake">
+                    <img src="images/cake5.jpg" alt="Cake 1" height="200" width="200">
+                    <h2>Birthday Cake</h2>
+                    <p>Rs.2999</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Wedding Cake', 49.99)">Add to Cart</button>
+                </div>
+            
+        </section>
+       
+       
+
+        <section id="contact" class="hidden">
+          
+            <h1 class="heading" id="ab">Contact Us</h1>
+           
+           
+            <p>Feel free to reach out to us with your inquiries.</p>
+          
+            <form id="myForm">
+                <div class="form-row">
+                <label for="name">Name</label>
+                <label for="email" >Email</label>
+            </div>
+            <div class="form-row">
+            
+                <input  type="text" placeholder="Enter Your Name" id="name" name="name" required>
+                <input id="em"  type="email" placeholder="Enter Your Email" id="email" name="email" required>
+            </div>
+<div class="form-col">
+                <label  for="phone">Phone Number</label>
+                <input type="tel" placeholder="Enter Your Phone Number" id="phone" name="phone" required>
+            </div>
+            <div class="form-col">
+                <label for="subject">Subject</label>
+                <textarea id="subject" placeholder="Enter Your Message" name="subject" rows="4" required></textarea>
+            </div>
+            <div class="submit">
+            <button>Submit</button>
+        </div>
+              </form>
+            
+            
+              
+        </section>
+
+      
+    
+    </main>
+<footer>
+    <p>&copy; 2024 Online Cake Shop. All rights reserved.</p>
+</footer>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
